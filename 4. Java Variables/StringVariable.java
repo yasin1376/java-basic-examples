@@ -7,23 +7,19 @@
  *
  * @author yasin
  */
-public class JavaComment {
+public class StringVariable {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
         // TODO code application logic here
-
-        // This is a single-line comment
         
-        System.out.println("Hello World");
-
-        /* This is a multi-line comment & 
-            
-            It is amazing! */
+        // String - stores text, such as "Ali". String values are surrounded by double quotes
         
-        System.out.println("Hello World");
+        String name = "Ali"; 
+        
+        System.out.println(name);
 
     }
 }
