@@ -16,5 +16,26 @@ public class JavaStrings {
         // TODO code application logic here
         
         // A String variable contains a collection of characters surrounded by double quotes
+        
+        String greeting = "Hello";
+        System.out.println(greeting);
+        
+        /* A String in Java is actually an object, which contain methods that can perform certain 
+            operations on strings. For example, the length of a string can be found with the 
+            length() method */
+        
+        String txt = "AFGHANISTAN";
+        System.out.println("The length of the txt string is: " + txt.length());
+        
+        String text = "Hello World";
+        System.out.println(text.toUpperCase());   // Outputs "HELLO WORLD"
+        System.out.println(text.toLowerCase());   // Outputs "hello world"
+        
+        /* The indexOf() method returns the index (the position) of the first occurrence
+            of a specified text in a string (including whitespace) */
+        
+        String sentence = "Please locate where 'locate' occurs!";
+        System.out.println(sentence.indexOf("locate")); // Outputs 7
+        
     }
 }
